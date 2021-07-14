@@ -41,7 +41,7 @@ app.get('/Search/Movies',async (req,res)=>{
             "status":200,
             "result":MovieName_Movie_details
         })
-       })
+       }).catch(err =>console.log(err))
     
 
 
