@@ -15,7 +15,7 @@ var request = require("request");
 
         if (err) {
           
-             return reject (`status:501,message:ServerDown`)
+             return reject ({`status:501,message:ServerDown`})
         } else {
            
          return resolve (result)
